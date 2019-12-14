@@ -315,7 +315,7 @@
             }), [function() {
                 var t = this.$createElement,
                     e = this._self._c || t;
-                return e("span", [e("i", { staticClass: "分類" }), this._v(" "), e("a", { attrs: { target: "blank", href: "https://分類.recoluan.com" } }, [this._v("分類")])])
+                return e("span", [e("i", { staticClass: "" }), this._v(" "), e("a", { attrs: { target: "blank", href: "https://分類.recoluan.com" } }, [this._v("")])])
             }], !1, null, "65440d87", null).exports),
             L = n(303),
             T = {

@@ -241,7 +241,7 @@
                 }), [function() {
                     var t = this.$createElement,
                         e = this._self._c || t;
-                    return e("h4", [e("i", { staticClass: "iconfont reco-category" }), this._v(" 分类")])
+                    return e("h4", [e("i", { staticClass: "iconfont reco-category" }), this._v(" 分類")])
                 }], !1, null, null, null).exports),
                 f = (a(85), a(189)),
                 g = a(184);

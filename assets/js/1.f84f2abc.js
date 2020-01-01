@@ -318,7 +318,7 @@
             }, [function() {
                 var t = this.$createElement,
                     e = this._self._c || t;
-                return e("span", [e("i", { staticClass: " " }), this._v(" "), e("a", { attrs: { target: "blank", href: " #" } }, [this._v("  ")])])
+                return e("span", [e("i", { staticClass: " " }), this._v(" "), e("a", { attrs: { target: "blank", href: " #" } }, [this._v(" ")])])
             }], !1, null, "65440d87", null).exports),
             $ = n(313),
             T = {

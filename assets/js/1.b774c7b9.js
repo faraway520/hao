@@ -178,12 +178,12 @@
                             return [].concat(Object(a.a)(n), [s])
                         }
                         var c = this.$themeConfig.blogConfig || {},
-                            u = n.some(function(t) { return !c.category || t.text === (c.category.text || " 分類") }),
+                            u = n.some(function(t) { return !c.category || t.text === (c.category.text || "分類") }),
                             l = n.some(function(t) { return !c.tag || t.text === (c.tag.text || "標籤") });
                         if (!u && Object.hasOwnProperty.call(c, "category")) {
                             var f = c.category,
                                 h = this.$categories;
-                            n.splice(parseInt(f.location || 2) - 1, 0, { items: h.list.map(function(t) { return t.link = t.path, t.text = t.name, t }), text: f.text || " 分類", type: "links", icon: "reco-category" })
+                            n.splice(parseInt(f.location || 2) - 1, 0, { items: h.list.map(function(t) { return t.link = t.path, t.text = t.name, t }), text: f.text || "分類", type: "links", icon: "reco-category" })
                         }
                         if (!l && Object.hasOwnProperty.call(c, "tag")) {
                             var p = c.tag;
@@ -318,7 +318,7 @@
             }, [function() {
                 var t = this.$createElement,
                     e = this._self._c || t;
-                return e("span", [e("i", { staticClass: " " }), this._v(" "), e("a", { attrs: { target: "blank", href: "  " } }, [this._v("    ")])])
+                return e("span", [e("i", { staticClass: " " }), this._v(" "), e("a", { attrs: { target: "blank", href: "https://    .recoluan.com" } }, [this._v("    ")])])
             }], !1, null, "65440d87", null).exports),
             $ = n(314),
             T = {

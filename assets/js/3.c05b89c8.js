@@ -274,7 +274,7 @@
                 }, [function() {
                     var t = this.$createElement,
                         e = this._self._c || t;
-                    return e("span", [e("i", { staticClass: "iconfont reco-theme" }), this._v(" "), e("a", { attrs: { target: "blank", href: "https:// .recoluan.com" } }, [this._v(" ")])])
+                    return e("span", [e("i", { staticClass: " " }), this._v(" "), e("a", { attrs: { target: "blank", href: "https:// .recoluan.com" } }, [this._v(" ")])])
                 }], !1, null, "44ea2958", null).exports),
                 _ = { components: { HomeBlog: l, Home: r, Page: m, Common: a(211).a, Footer: d }, computed: { sidebarItems: function() { return Object(g.l)(this.$page, this.$page.regularPath, this.$site, this.$localePath) }, homeCom: function() { var t = this.$themeConfig.type; return void 0 !== t ? "blog" == t ? "HomeBlog" : t : "Home" } } },
                 C = (a(326), a(327), Object(s.a)(_, function() {

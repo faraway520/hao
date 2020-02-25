@@ -71,22 +71,12 @@
         "use strict";
         var i = n(33),
             r = n(216)(1);
-        i(i.P + i.F * !n(95)([].map, !0), "Array", { map: function(t) { return r(this, t, argumen標籤[1]) } })
+        類
+        i(i.P + i.F * !n(95)([].map, !0), "Array", { map: function(t) { return r(this, t, arguments[1]) } })
     }, function(t, e, n) {
         "use strict";
-        e.a = {
-            methods: {
-                _tagColor() {
-                    const t = ["#e15b64", "#f47e60", "#f8b26a", "#abbd81", "#849b87"
-                        標籤 "#e15b64", "#f47e60", "#f8b26a", "#f26d6d", "#67cc86", "#fb9b5f", "#3498db"
-                    ];
-                    return t[Math.floor(Math.random() * t.length)]
-                },
-                _filterPostData: (t, e) => t = t.filter(t => { const { title: n, frontmatter: { home: i, date: r, publish: o } } = t; return !0 === e ? !(1 == i || null == n || void 0 === r || !1 === o) : !(1 == i || null == n || !1 === o) }),
-                _sortPostData(t) { t.sort((t, e) => this._getTimeNum(e) - this._getTimeNum(t)) },
-                _getTimeNum: t => parseInt(new Date(t.frontmatter.date).getTime())
-            }
-        }
+        分類
+        e.a = { methods: { _tagColor() { const t = ["#e15b64", "#f47e60", "#f8b26a", "#abbd81", "#849b87", "#e15b64", "#f47e60", "#f8b26a", "#f26d6d", "#67cc86", "#fb9b5f", "#3498db"]; return t[Math.floor(Math.random() * t.length)] }, _filterPostData: (t, e) => t = t.filter(t => { const { title: n, frontmatter: { home: i, date: r, publish: o } } = t; return !0 === e ? !(1 == i || null == n || void 0 === r || !1 === o) : !(1 == i || null == n || !1 === o) }), _sortPostData(t) { t.sort((t, e) => this._getTimeNum(e) - this._getTimeNum(t)) }, _getTimeNum: t => parseInt(new Date(t.frontmatter.date).getTime()) } }
     }, , , function(t, e, n) {
         for (var i = n(263), r = n(99), o = n(38), s = n(5), a = n(35), c = n(214), u = n(56), l = u("iterator"), f = u("toStringTag"), h = c.Array, p = { CSSRuleList: !0, CSSStyleDeclaration: !1, CSSValueList: !1, ClientRectList: !1, DOMRectList: !1, DOMStringList: !1, DOMTokenList: !0, DataTransferItemList: !1, FileList: !1, HTMLAllCollection: !1, HTMLCollection: !1, HTMLFormElement: !1, HTMLSelectElement: !1, MediaList: !0, MimeTypeArray: !1, NamedNodeMap: !1, NodeList: !0, PaintRequestList: !1, Plugin: !1, PluginArray: !1, SVGLengthList: !1, SVGNumberList: !1, SVGPathSegList: !1, SVGPointList: !1, SVGStringList: !1, SVGTransformList: !1, SourceBufferList: !1, StyleSheetList: !0, TextTrackCueList: !1, TextTrackList: !1, TouchList: !1 }, d = r(p), m = 0; m < d.length; m++) {
             var g, v = d[m],
@@ -190,16 +180,16 @@
                             return [].concat(Object(a.a)(n), [s])
                         }
                         var c = this.$themeConfig.blogConfig || {},
-                            u = n.some(function(t) { return !c.category || t.text === (c.category.text || "分類") }),
-                            l = n.some(function(t) { return !c.tag || t.text === (c.tag.text || "标签") });
+                            u = n.some(function(t) { return !c.category || t.text === (c.category.text || "分类") }),
+                            l = n.some(function(t) { return !c.tag || t.text === (c.tag.text || " 標籤") });
                         if (!u && Object.hasOwnProperty.call(c, "category")) {
                             var f = c.category,
                                 h = this.$categories;
-                            n.splice(parseInt(f.location || 2) - 1, 0, { items: h.list.map(function(t) { return t.link = t.path, t.text = t.name, t }), text: f.text || "分類", type: "links", icon: "reco-category" })
+                            n.splice(parseInt(f.location || 2) - 1, 0, { items: h.list.map(function(t) { return t.link = t.path, t.text = t.name, t }), text: f.text || "分类", type: "links", icon: "reco-category" })
                         }
                         if (!l && Object.hasOwnProperty.call(c, "tag")) {
                             var p = c.tag;
-                            n.splice(parseInt(p.location || 3) - 1, 0, { link: "/tag/", text: p.text || "标签", type: "links", icon: "reco-tag" })
+                            n.splice(parseInt(p.location || 3) - 1, 0, { link: "/tag/", text: p.text || " 標籤", type: "links", icon: "reco-tag" })
                         }
                         return n
                     },
@@ -330,7 +320,7 @@
             }, [function() {
                 var t = this.$createElement,
                     e = this._self._c || t;
-                return e("span", [e("i", { staticClass: " " }), this._v(" "), e("a", { attrs: { target: "blank", href: "https:// .recoluan.com" } }, [this._v(" ")])])
+                return e("span", [e("i", { staticClass: "deletethisicon" }), this._v(" "), e("a", { attrs: { target: "blank", href: "https://vuepress-theme-reco.recoluan.com" } }, [this._v("")])])
             }], !1, null, "65440d87", null).exports),
             $ = n(316),
             T = {

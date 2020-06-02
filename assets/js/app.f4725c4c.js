@@ -8482,7 +8482,7 @@
                         },
                         jumpPage: function(e) {
                             var t = parseInt(e);
-                            t <= this.pages && t > 0 ? this.emit(t) : alert("请输入大于0，并且小于".concat(this.pages, "的页码！"))
+                            t <= this.pages && t > 0 ? this.emit(t) : alert("請輸入大於0，並且小於，并且小于".concat(this.pages, "的頁碼！"))
                         },
                         emit: function(e) { this.$emit("getCurrentPage", e) }
                     }
